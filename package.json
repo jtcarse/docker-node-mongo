@@ -1,0 +1,17 @@
+{
+  "name": "docker-node-mongo",
+  "version": "1.0.0",
+  "description": "tutorial from https://medium.com/@sunnykay/docker-development-workflow-node-express-mongo-4bb3b1f7eb1e",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "latest",
+    "mongoose": "^5.2.7",
+    "nodemon": "latest"
+  }
+}
